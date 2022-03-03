@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "cstddef": "cpp",
+    "xtr1common": "cpp"
+  }
+}
