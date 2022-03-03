@@ -12,7 +12,7 @@ std::ptrdiff_t uworld_state = 0x86DA078;
 std::ptrdiff_t uworld_key = 0x86DA040;
 
 /*
-Classes
+* Classes
 */
 std::ptrdiff_t game_instance = 0x1A8;
 std::ptrdiff_t persistent_level = 0x38;
