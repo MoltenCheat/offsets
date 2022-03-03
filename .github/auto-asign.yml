@@ -1,0 +1,4 @@
+addReviewers: true
+reviewers:
+  - ex.codes
+numberOfReviewers: 0
