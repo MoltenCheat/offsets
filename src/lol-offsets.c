@@ -1,13 +1,11 @@
-//Created - xmar - League of Legends 12.5
-
 /*
-League of Legends Offsets Repository @MoltenCheat
-Contributor: xmar from @cheatglobal.com - Thanks for support
+MoltenCheat Offsets Repository @MoltenCheat
+Contributor: xmar from @cheatglobal.com - Thanks for support!
 Unix Epoch Time: 1646360202
 Visit: https://github.com/MoltenCheat/offsets
 League of Legends Version: 12.5 (WIP)
 */
- 
+
 #define BASEADDRESS
 #define oDrawCircle 0x4E5520    //E8 ? ? ? ? 83 C4 1C 0F 28 74 24 ?
 #define oTurretList 0x310B7E8    //8B 35 ? ? ? ? 8B 76 18

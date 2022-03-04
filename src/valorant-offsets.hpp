@@ -1,12 +1,12 @@
-#pragma once
-#include <cstddef>
-
 /*
-Valorant Offsets Repository @MoltenCheat
+MoltenCheat Offsets Repository @MoltenCheat
 Unix Epoch Time: 1646319750
 Visit: https://github.com/MoltenCheat/offsets
 Valorant Version: 4.04 (WIP)
 */
+
+#pragma once
+#include <cstddef>
 
 std::ptrdiff_t uworld_state = 0x86DA078;
 std::ptrdiff_t uworld_key = 0x86DA040;
