@@ -1,9 +1,8 @@
 /*
 MoltenCheat Offsets Repository @MoltenCheat
-Contributor: xmar from @cheatglobal.com - Thanks for support!
-Unix Epoch Time: 1646360202
+Unix Epoch Time: 1646319750
 Visit: https://github.com/MoltenCheat/offsets
-League of Legends Version: 12.5 (WIP)
+Valorant Version: 4.04 (WIP)
 */
 
 #define BASEADDRESS
