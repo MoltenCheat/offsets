@@ -4,7 +4,7 @@
 /*
 Valorant Offsets Repository @MoltenCheat
 Unix Epoch Time: 1646319750
-Visit: https://github.com/MoltenCheat/valorant-offsets
+Visit: https://github.com/MoltenCheat/offsets
 Valorant Version: 4.04 (WIP)
 */
 
