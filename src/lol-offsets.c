@@ -40,23 +40,29 @@ League of Legends Version: 12.5 (WIP)
 #define oIssueOrder 0x5DF5FD    //C7 05 ? ? ? ? ? ? ? ? E8 ? ? ? ? 8B 44 24 20 C7 05 ? ? ? ? ? ? ? ?
 #define oGetSpellState 0x0    //E8 ? ? ? ? 8B F8 8B CB 89
 #define oGetBasicAttack 0x125060    //53 8B D9 B8 ? ? ? ? 8B 93
+// TODO: Duplicate with line 22
 #define oIsNotWall 0x9B8B30    //E8 ? ? ? ? 33 C9 83 C4 0C 84
 #define oGameVersion 0x578B60    //8B 44 24 04 BA ? ? ? ? 2B D0
 #define oWorldToScreen 0xA34420    //83 EC 10 56 E8 ? ? ? ? 8B 08
+// TODO: Duplicate adress with line 46
 #define oWorldToScreen2 0xA34420    //E8 ? ? ? ? F3 0F 10 4C 24 ? 83 C4 10
+// TODO: Duplicate definition with line 29
 #define oGetFirstObject 0xB44CCF    //8B 41 14 8B 51 18
 #define oGetNextObject 0x27A760    //E8 ? ? ? ? 8B F0 85 F6 75 E4
 #define oHPBarPos 0x59EB60    //E8 ?? ?? ?? ?? 8B 4E ?? 8D 54 ?? ?? 52 8B 01 FF ?? ?? 5E 83 ?? ?? C3
 #define oBaseDrawPosition 0x1748B0    //E8 ?? ?? ?? ?? EB ?? 8B 01 8B 40
 #define oLocalPlayer 0x31168D4    //51 8B 0D ? ? ? ? 85 C9 74 26
+// TODO: Duplicate with line 15
 #define oMinimapObject 0x310F288    //8B 15 ? ? ? ? 85 D2 74 31
 #define oHudInstance 0x1879860    //8B 35 ? ? ? ? 83 C4 08 8B 87 ? ? ? ?
 #define oRenderer 0x3143DE0    //A1 ? ? ? ? 80 B8 ? ? ? ? ? 75 17
 #define oObjManager 0x1879830    //8B 0D ? ? ? ? E8 ? ? ? ? FF 77
 #define oGameTime 0x310DF84    //F3 0F 11 05 ? ? ? ? 8B 49
+// TODO: Duplicate with line 58
 #define oRenderer 0x3143DE0    //8B 15 ? ? ? ? 83 EC 08 F3
 #define oD3DRenderer 0x312C688    //A1 ? ? ? ? 89 54 24 18
 #define oZoomClass 0x310D610    //A3 ? ? ? ? 83 FA 10 72 32
+// TODO: Duplicate definition with line 64
 #define oZoomClass 0x3108E60    //A3 ? ? ? ? 8D 04 24
 #define oViewProjMatricies 0x3140F40    //B9 ? ? ? ? E8 ? ? ? ? B9 ? ? ? ? E9 ? ? ? ? CC CC CC
 #define oUnderMouseObject 0x310A9D8    //89 0D ? ? ? ? C7 41 ? ? ? ? ? C7 41 ? ? ? ? ? C7 01 ? ? ? ?
@@ -86,7 +92,10 @@ League of Legends Version: 12.5 (WIP)
 #define oObjMagicRes 0x12EC    //8B 81 ? ? ? ? 89 42 0C 8B 81 ? ? ? ? 89 42 08 F3 0F 58 86 ? ? ? ? 5F 5E F3 0F 11 42 ? 59 C2 04 00
 #define oObjBaseAtk 0x12BC    //8B 81 ? ? ? ? 81 C1 ? ? ? ? 89 47 04
 #define oObjBonusAtk 0x1234    //89 86 ? ? ? ? 8B 86 ? ? ? ? 89 86 ? ? ? ? 8B 86 ? ? ? ? 89 86 ? ? ? ? 8B 86 ? ? ? ? 89 86 ? ? ? ? 8B 86 ? ? ? ? 89 86 ? ? ? ? 8B 86 ? ? ? ? 89 86 ? ? ? ? 8B 86 ? ? ? ? 89 86 ? ? ? ? 8B 86 ? ? ? ? 89 86 ? ? ? ? F3 0F 10 86 ? ? ? ? F3 0F 11 44 24 ? 8B 44 24 18
+// TODO: Duplicate with line 80
 #define oObjMovementSpeed 0x12FC    //89 8E ? ? ? ? 8B 88 ? ? ? ? 89 8E ? ? ? ? 8B 88 ? ? ? ? 89 8E ? ? ? ? 8B CE FF 92 ? ? ? ?
 #define oObjSpellBook 0x27F8    //8B 84 83 ? ? ? ? EB 06 8B 83 ? ? ? ? 85 C0 0F 84 ? ? ? ? 53 8B CF E8 ? ? ? ? 8B C8 8B 10 FF 52 18 8B F0
+// TODO: Duplicate adress with line 77
 #define oObjPlayerName 0x6C    //8D 41 6C C3
+// TODO: Duplicate adress with line 73
 #define oSpellSlotDamage 0x98    //8D 81 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC 8D 81 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC 8D 81 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC 8B 44 24 04
