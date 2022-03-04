@@ -12,7 +12,6 @@ Valorant Version: 4.04 (WIP)
 /*
 * Classes
 */
-
 #define game_instance 0x1A8
 #define persistent_level 0x38
 #define component_to_world 0x250
